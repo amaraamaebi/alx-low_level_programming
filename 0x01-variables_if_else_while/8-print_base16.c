@@ -15,9 +15,9 @@ int main(void)
 	int size_int;
 	int size_char;
 	int size_array;
-
-       	for (i = 194; i >= 185; i--)
-       	{
+	
+	for (i = 194; i >= 185; i--)
+	{
 		/*  Writes the equivalent character */
 		iter = 194 - i;
 		int_array[iter] = iter;
@@ -35,5 +35,6 @@ int main(void)
 			putchar(char_array[j]);
 		j++;
 	}
+	putchar('\n');
 	return (0);
 }
