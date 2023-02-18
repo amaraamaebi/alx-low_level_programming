@@ -9,8 +9,8 @@ int main(void)
 {
 	int alpha;
 
-	for (alpha = 0; alpha < 10; alpha++)
-		putchar('0' + alpha);
+	for (alpha = 122; alpha >= 97; alpha--)
+		putchar(alpha);
 	putchar('\n');
 	return (0);
 }
