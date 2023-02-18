@@ -8,19 +8,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	char str[20];
 	if (n > 0)
 	{
-		str = "is positive"
+		printf("%d is positive", n);
 	}
 	else if (n == 0)
 	{
-		str = "is zero"
+		printf("%d is zero", n);
 	}
 	else
 	{
-		str = "is negative"
+		printf("%d is negative", n);
 	}
-	printf("%d %s", n, str)
 	return (0);
 }
