@@ -23,6 +23,7 @@ int main(void)
 
 		if (j > 8)
 		{
+			j = i + 1;
 			i++;
 		}
 		j++;
