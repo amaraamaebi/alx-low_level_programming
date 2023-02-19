@@ -23,13 +23,13 @@ int main(void)
 			putchar(44);
 			putchar(32);
 		}
-		if (j > 7)
-		{
-			i = i + 1;
-			j = 1;
-		}
 		if (k > 8)
 		{
+			if (j > 7)
+			{
+				i++;
+				j = i;
+			}
 			j++;
 			k = j;
 		}
