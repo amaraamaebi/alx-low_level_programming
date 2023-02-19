@@ -23,15 +23,16 @@ int main(void)
 			putchar(44);
 			putchar(32);
 		}
-
+		if (j > 7)
+		{
+			i = i + 1;
+			j = 1;
+		}
 		if (k > 8)
 		{
-			j = j + 1;
-			k = j + 1;
+			j++;
+			k = j;
 		}
-
-		if (j > 7)
-			i++;
 		k++;
 	}
 	putchar('\n');
