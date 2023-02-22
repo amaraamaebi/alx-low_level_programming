@@ -14,6 +14,11 @@ int main(void)
 	return (0);
 }
 
+/**
+ * print_alphabet - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int print_alphabet(void)
 {
 	int i;
@@ -24,4 +29,7 @@ int print_alphabet(void)
 		putchar(i);
 		i++;
 	}
+	putchar('\n');
+
+	return (0);
 }
