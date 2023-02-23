@@ -8,7 +8,7 @@
  */
 void print_to_98(int n)
 {
-	int diff;
+	int i, diff;
 
 	if (n >= 0 && n <= 98)
 	{
