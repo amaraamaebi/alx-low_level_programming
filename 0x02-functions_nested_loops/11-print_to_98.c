@@ -14,7 +14,7 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= 98; i++)
 		{
-			putchar(i);
+			putchar(i + 48);
 			putchar(44);
 			putchar(32);
 		}
@@ -23,7 +23,7 @@ void print_to_98(int n)
 	{
 		for (i = n; n >= 98; i--)
 		{
-			putchar(i);
+			putchar(i + 48);
 			putchar(44);
 			putchar(32);
 		}
@@ -33,7 +33,7 @@ void print_to_98(int n)
 		diff = 98 + n;
 		for (i = n; i <= diff; i++)
 		{
-			putchar(i);
+			putchar(i + 48);
 			putchar(44);
 			putchar(32);
 		}
