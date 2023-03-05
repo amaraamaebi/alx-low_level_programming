@@ -3,7 +3,7 @@
 
 /**
  * _isupper - _isupper
- *
+ * @c: variable collect.
  * Return: Always 0.
  */
 int _isupper(int c)
@@ -12,7 +12,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
