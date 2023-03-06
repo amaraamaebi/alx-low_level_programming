@@ -17,19 +17,20 @@ void main(void)
 			printf("Fizz");
 			if (i % 5 == 0)
 				printf("Buzz");
-			putchar(32);
+			_putchar(32);
 		}
 		else if (i % 5 == 0)
 		{
 			if (i % 3 == 0)
 				printf("Fizz");
 			printf("Buzz");
-			putchar(32);
+			_putchar(32);
 		}
 		else
 		{
 			printf("%d", i);
-			putchar(32);
+			_putchar(32);
 		}
 	}
+	_putchar('\n');
 }
