@@ -21,7 +21,7 @@ void more_numbers(void)
 				k = 48 + j;
 			}
 			else
-		       	{
+			{
 				k = 49;
 				l = j % 10;
 			}
